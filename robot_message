@@ -1,0 +1,291 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>JMG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+    body {
+        background-color: #b7e4c7;
+        margin: 0;
+        padding: 0;
+    }
+
+    button {
+        display: inline-block;
+        background-color: #b7e4c7;
+        border-radius: 30px;
+        border: 4px double #cccccc;
+        color: #04151f;
+        text-align: center;
+        font-size: 15px;
+        width: 200px;
+        height: 50px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .logo {
+        text-align: left;
+        padding: 30px 0px 20px 0px !important;
+    }
+
+    .footer {
+        width: 100%;
+        margin-top: 2em;
+        font-size: 10px;
+        color: #bababa;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer td,
+    #footer th {
+        padding: 0 2px;
+        white-space: nowrap;
+        line-height: 1px;
+        height: 1px;
+    }
+
+    .footer a {
+        color: #bababa;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-family: Poppins, regular;
+        text-transform: uppercase;
+        font-size: 21px;
+        font: bold;
+        margin: 1em 0 1em 0;
+    }
+
+    p.salutation {
+        font-weight: normal;
+        margin: 2em 0 1em 0;
+    }
+
+    pre {
+        background-color: #e2e2e2;
+        padding: 5px;
+        align: center;
+    }
+
+    a {
+        color: #d50c2d;
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    table table {
+        max-width: 600px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    table table td {
+        padding: 10px 20px 0px 20px;
+    }
+
+    table table table {
+        border: 1px solid #d7d7d7;
+        min-width: 60%;
+        max-width: 80%;
+        padding-bottom: 10px;
+        margin: 2em auto 2em auto;
+    }
+
+    table table table th,
+    table table table td {
+        padding: 2px 4px 2px 4px;
+    }
+
+    .thistable {
+        margin: 2em auto 2em auto;
+        border: 1px solid #d7d7d7;
+        min-width: 60%;
+    }
+
+    .thistable th {
+        background: #ffffff;
+    }
+
+    .thistable th,
+    .thistable td {
+        padding: 2px 4px 2px 4px;
+        text-align: left;
+    }
+
+    @media screen {
+        html {
+            background-color: #04151f;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        body,
+        td,
+        th,
+        pre.empty,
+        p {
+            font-family: 'Poppins', Helvetica, Tahoma;;
+            line-height: 22px;
+            font-size: 13px;
+
+            color: #b7e4c7;
+        }
+
+        p {
+            max-width: 55em;
+        }
+
+        a {
+            color: #d50c2d;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    @media only screen and (max-width: 650px) {
+        .logo {
+            text-align: center;
+            margin: 30px 0px 20px 0px !important;
+            background-color: #f5f5f5;
+        }
+
+        table {
+            background-color: #ffffff;
+            padding: 0;
+        }
+    }
+
+    @media print {
+
+        html,
+        body {
+            font-family: Poppins;
+            background: #f5f5f5;
+            border: 60px solid #f5f5f5;
+            margin: 25;
+            padding: 0;
+            border-radius: 60px;
+        }
+
+        body,
+        td,
+        th,
+        pre.empty,
+        h1,
+        p {
+            font-size: 10pt;
+        }
+
+        body {
+            max-width: 210mm;
+        }
+
+        p {
+            max-width: 210mm;
+        }
+
+        .footer th {
+            font-size: 9pt;
+        }
+
+        .logo {
+            margin-bottom: 15mm;
+        }
+
+        table table td {
+            padding: 0;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        table table table {
+            border: 1pt solid #b7e4c7;
+        }
+
+        .thistable {
+            border: 1pt solid #b7e4c7;
+        }
+
+        .thistable th,
+        .thistable td {
+            border: 0pt solid #f5f5f5;
+            padding: 0px 0px;
+        }
+    }
+
+
+</style>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+    <tbody>
+        <tr>
+            <td bgcolor="#04151f" width="100%" height="100%">
+                <table border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                        <tr>
+                        <tr>
+                            <td class="logo">
+                                <img src="http://drive.google.com/uc?export=3Dview&id=1GsC8OvxFIbJ31CL9dwrgClNUYguKWek2"
+                                    alt="jmg_it" width="600" height="80">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 20px; border-radius: 60px;" bgcolor="#04151f">
+                                <p class="salutation"> <span style="font-size: 40pt; line-height: 96px;" >Sehr geehrter Herr Langisch,</span>
+                                </p>Vielen Dank f&#x00FC;r Ihre Bestellung.</p>
+                                <p>Sie ahnen es bereits: Diese nachricht wurde Automatisiert versendet.</p>
+                                <p>In kurze werden wir uns mit einigen informationen bei ihnen melden:.</p>
+                                <p>&#x00A0;</p>
+                                <p>Ihre Bestellung:</p>
+
+                                <p>&#x00A0;</p>
+                                <p>Sollten Sie Fragen haben, kommen Sie auf uns zu.</p>
+                                <p>Wir freuen uns von Ihnen zu horen.</p>
+                                <p>Mit freundlichen Gr&#x00FC;&#x00DF;en</p>
+                                <p>&#x00A0;</p>
+                                <p>
+                                    <span style="font-size: 20pt;">Das JMG-Team.</span>
+                                </p>
+                                <p>&#x00A0;</p>
+                            </td>
+
+                        </tr>
+
+
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
